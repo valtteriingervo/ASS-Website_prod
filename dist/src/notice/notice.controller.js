@@ -20,7 +20,6 @@ const dto_1 = require("./dto");
 const constants_1 = require("../constants");
 const decorator_1 = require("../auth/decorator");
 const vadePlsCode_1 = require("../vadePlsCode");
-const editNotice_dto_1 = require("./dto/editNotice.dto");
 let NoticeController = class NoticeController {
     constructor(noticeService) {
         this.noticeService = noticeService;
@@ -95,7 +94,7 @@ __decorate([
     __param(1, (0, common_1.Param)('id')),
     __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Number, editNotice_dto_1.EditNoticeDto]),
+    __metadata("design:paramtypes", [Object, Number, dto_1.EditNoticeDto]),
     __metadata("design:returntype", void 0)
 ], NoticeController.prototype, "editNotice", null);
 exports.NoticeController = NoticeController = __decorate([

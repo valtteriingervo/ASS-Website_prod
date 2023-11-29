@@ -59,7 +59,7 @@ let AuthService = class AuthService {
             email,
         };
         const token = await this.jwt.signAsync(payload, {
-            expiresIn: '30m',
+            expiresIn: '360m',
             secret: process.env.JWT_SECRET,
         });
         return {

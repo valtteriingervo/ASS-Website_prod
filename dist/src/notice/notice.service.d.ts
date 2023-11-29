@@ -1,5 +1,4 @@
-import { NoticeDto } from './dto';
-import { EditNoticeDto } from './dto/editNotice.dto';
+import { NoticeDto, EditNoticeDto } from './dto';
 export declare class NoticeService {
     createNotice(notice: NoticeDto): Promise<import("../../database/util/databaseTypes").NoticeAttributes>;
     getNotice(id: number): Promise<import("../../database/util/databaseTypes").NoticeAttributes>;

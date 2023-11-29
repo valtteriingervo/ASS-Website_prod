@@ -1,6 +1,5 @@
 import { NoticeService } from './notice.service';
-import { NoticeDto } from './dto';
-import { EditNoticeDto } from './dto/editNotice.dto';
+import { NoticeDto, EditNoticeDto } from './dto';
 export declare class NoticeController {
     private noticeService;
     constructor(noticeService: NoticeService);
